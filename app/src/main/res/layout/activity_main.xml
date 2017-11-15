@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/fragment_tab"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:orientation="vertical"
+        android:layout_gravity="bottom">
+
+        <RadioGroup
+            android:id="@+id/tab_group"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:clickable="false"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/one"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:drawableTop="@mipmap/ic_launcher"/>
+
+            <RadioButton
+                android:id="@+id/two"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:drawableTop="@mipmap/ic_launcher"/>
+
+            <RadioButton
+                android:id="@+id/three"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:drawableTop="@mipmap/ic_launcher"/>
+        </RadioGroup>
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
